@@ -2,3 +2,10 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
+
+.home h1{
+    text-align: center;
+    color: #d4d4d4;
+    font-family: 'Raleway';
+    font-size: 80px;
+}

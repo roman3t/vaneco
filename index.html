@@ -14,7 +14,7 @@
 
     <div id="fullpage">
 
-        <div class="section active" id="section0"><h1>Piedras Vaneco</h1></div>
+        <div class="section active home" id="section0"><h1>Piedras Vaneco</h1></div>
         <div class="section" id="section1"><h1>Granito</h1></div>
         <div class="section" id="section2"><h1>Cuarzo</h1></div>
         <div class="section" id="section3"><h1>Mármol</h1></div>
@@ -26,7 +26,17 @@
 <script type="text/javascript" src="js/fullpage.js"></script>
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
-		sectionsColor: ['#c0c0c0', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
-	});
+		sectionsColor: ['#414141', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['Home', 'Granito', 'Cuarzo', 'Mármol', 'Onix'],
+        responsiveWidth: 900,
+        afterResponsive: function(isResponsive){
+
+        }
+    });
+
+    
+
 </script>
 </html>
