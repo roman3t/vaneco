@@ -5,10 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piedras Vaneco</title>
+    <link rel="stylesheet" href="css/normalize.css">    
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Piedras Vaneco</h1>
-</body>
 
+    <div id="fullpage">
+
+        <div class="section active" id="section0"><h1>Piedras Vaneco</h1></div>
+        <div class="section" id="section1"><h1>Granito</h1></div>
+        <div class="section" id="section2"><h1>Cuarzo</h1></div>
+        <div class="section" id="section3"><h1>Mármol</h1></div>
+        <div class="section" id="section4"><h1>Onix</h1></div>
+      </div>
+      
+
+</body>
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript">
+	var myFullpage = new fullpage('#fullpage', {
+		sectionsColor: ['#c0c0c0', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+	});
+</script>
 </html>
