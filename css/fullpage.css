@@ -187,9 +187,9 @@ html.fp-enabled,
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
-    color: #fff;
+    color: #414141;
     font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     white-space: nowrap;
     max-width: 220px;
     overflow: hidden;
@@ -234,3 +234,4 @@ html.fp-enabled,
     white-space: nowrap;
     border: 0;
 }
+

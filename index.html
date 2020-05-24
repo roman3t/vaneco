@@ -26,6 +26,7 @@
                 <h1>Piedras Vaneco</h1>
                 <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/romanet/presupuestos'});return false;">Agenda</a>
                 <p>Conócenos</p>
+                
             </div>
             <!--
             <img src="svg/facebook.svg" alt="">
@@ -43,10 +44,14 @@
 <script type="text/javascript" src="js/fullpage.js"></script>
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
-		sectionsColor: ['#414141', '#d4d4d4', '#d4d4d4', '#d4d4d4', '#d4d4d4'],
+        sectionsColor: ['#414141', '#d4d4d4', '#d4d4d4', '#d4d4d4', '#d4d4d4'],
         navigation: true,
         navigationPosition: 'left',
-        navigationTooltips: ['Home', 'Granito', 'Cuarzo', 'Mármol', 'Onix']
+        navigationTooltips: ['Home', 'Granito', 'Cuarzo', 'Mármol', 'Onix'],
+        dragAndMove: false,
+        fadingEffect:'sections'
     });   
 </script>
+
+
 </html>
